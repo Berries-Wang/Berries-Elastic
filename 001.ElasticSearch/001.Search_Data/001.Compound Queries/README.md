@@ -1,4 +1,4 @@
-# Compound Query
+# Compound Query(复合查询)
 Compound queries wrap other compound or leaf queries, either to combine their results and scores, to change their behaviour, or to switch from query to filter context.(复合查询包装其他复合查询或叶查询，以组合其结果和分数，改变其行为，或从查询切换到过滤上下文。)
 
 The queries in this group are:
