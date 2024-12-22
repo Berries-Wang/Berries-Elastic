@@ -3,3 +3,9 @@ Shard allocation is the process of assigning shard copies to nodes. This can hap
 
 One of the main roles of the master is to decide which shards to allocate to which nodes, and when to move shards between nodes in order to rebalance the cluster.(主服务器的主要角色之一是决定将哪些分片分配给哪些节点，以及何时在节点之间移动分片以重新平衡集群。)
 
+---
+
+## 实际场景应用
+### 1. 下线节点
++ 通过操作[分片分配过滤器](./000.Cluster-level%20shard%20allocation%20filtering.md)即可让分片从一个ES实例中迁移，迁移完成后即可下线节点
+
