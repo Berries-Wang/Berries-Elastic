@@ -5,11 +5,5 @@ Each document is a collection of fields, which each have their own data type. Wh
 
 Use dynamic mapping and explicit mapping to define your data. Each method provides different benefits based on where you are in your data journey. For example, explicitly map fields where you don’t want to use the defaults, or to gain greater control over which fields are created. You can then allow Elasticsearch to add other fields dynamically.（使用动态映射和显式映射来定义数据。每种方法根据您在数据旅程中所处的位置提供不同的好处。例如，显式映射您不想使用默认值的字段，或者更好地控制要创建哪些字段。然后，您可以允许 Elasticsearch 动态添加其他字段。）
 
-
-## 实际场景应用
-
-
-
-
 ## 参考
 1. [Mapping](https://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html)
