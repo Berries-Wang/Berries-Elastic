@@ -35,7 +35,6 @@ Unfortunately, there is no one-size-fits-all sharding strategy. A strategy that 
 #### Aim for 20 shards or fewer per GB of heap memory (目标是每GB堆内存20或更少的分片)
 
 
-
 #### shard过大导致性能下降，考虑修复索引分片大小
 > 执行前需要考虑磁盘空间是否足够
 + Split Index
@@ -48,3 +47,6 @@ Unfortunately, there is no one-size-fits-all sharding strategy. A strategy that 
 ## 参考资料
 + [Size your shards(调整分片大小)](https://www.elastic.co/docs/deploy-manage/production-guidance/optimize-performance/size-shards)
 + [Size your shards (pdf)](./999.REFS/)
++ [华为云 10.6.2.1.3 Shard 规划建议](./999.REFS/mrs-usermanual.pdf)
++ [评估节点规格和节点数量](https://help.aliyun.com/zh/es/user-guide/evaluate-specifications-and-storage-capacity#6985522087uzn)
+  > Local: [阿里云ES如何选择规格和容量_检索分析服务 Elasticsearch版(ES)-阿里云帮助中心](./999.REFS/阿里云ES如何选择规格和容量_检索分析服务%20Elasticsearch版(ES)-阿里云帮助中心.pdf)
